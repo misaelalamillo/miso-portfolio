@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/miso-portfolio/static/css/main.bded3a80.chunk.css",
+    "main.js": "/miso-portfolio/static/js/main.af2df952.chunk.js",
+    "main.js.map": "/miso-portfolio/static/js/main.af2df952.chunk.js.map",
+    "runtime-main.js": "/miso-portfolio/static/js/runtime-main.132b2e8e.js",
+    "runtime-main.js.map": "/miso-portfolio/static/js/runtime-main.132b2e8e.js.map",
+    "static/js/2.9d087cbc.chunk.js": "/miso-portfolio/static/js/2.9d087cbc.chunk.js",
+    "static/js/2.9d087cbc.chunk.js.map": "/miso-portfolio/static/js/2.9d087cbc.chunk.js.map",
+    "index.html": "/miso-portfolio/index.html",
+    "precache-manifest.2fd8033fc387523e80377f20d59d6d33.js": "/miso-portfolio/precache-manifest.2fd8033fc387523e80377f20d59d6d33.js",
+    "service-worker.js": "/miso-portfolio/service-worker.js",
+    "static/css/main.bded3a80.chunk.css.map": "/miso-portfolio/static/css/main.bded3a80.chunk.css.map",
+    "static/js/2.9d087cbc.chunk.js.LICENSE.txt": "/miso-portfolio/static/js/2.9d087cbc.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.132b2e8e.js",
+    "static/js/2.9d087cbc.chunk.js",
+    "static/css/main.bded3a80.chunk.css",
+    "static/js/main.af2df952.chunk.js"
+  ]
+}

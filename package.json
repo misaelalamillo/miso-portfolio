@@ -1,44 +1,36 @@
 {
-  "name": "app-employee-directory",
-  "version": "0.1.0",
-  "private": false,
-  "homepage": "https://misaelalamillo.github.io/employee-directory",
-  "dependencies": {
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.5.0",
-    "@testing-library/user-event": "^7.2.1",
-    "axios": "^0.19.2",
-    "bootstrap": "^4.4.1",
-    "gh-pages-deploy": "^0.5.1",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1",
-    "shards": "^1.0.3"
-  },
+  "name": "mis0-portfolio",
+  "version": "1.0.0",
+  "description": "Web design portfolio",
+  "main": "server.js",
+  "homepage": "https://misaelalamillo.github.io/misael-portfolio",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "lint": "eslint --quiet .",
+    "fix": "eslint --fix .",
+    "test": "npm run lint && cross-env NODE_ENV=test mocha -u tdd --reporter spec --exit"
   },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "license": "ISC",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "express-session": "^1.17.0",
+    "glob": "^7.1.6",
+    "node-git-server": "^0.6.0"
   },
   "devDependencies": {
-    "gh-pages": "^2.2.0"
+    "chai": "^4.1.2",
+    "chai-http": "^4.0.0",
+    "cross-env": "^5.2.0",
+    "eslint": "^4.19.1",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-prettier": "^2.6.2",
+    "mocha": "^5.2.0",
+    "prettier": "^1.13.7"
   }
 }
